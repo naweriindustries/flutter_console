@@ -57,7 +57,7 @@ android {
 
     defaultConfig {
         // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
-        applicationId "app.bbc.com"
+        applicationId "cinema.naweri.com"
         minSdkVersion 17
         targetSdkVersion flutter.targetSdkVersion
         versionCode flutterVersionCode.toInteger()
@@ -69,7 +69,7 @@ android {
         release {
             storeFile file("sign/key.jks")
             storePassword "pwo6dq2gfi"
-            keyAlias "naweri_social"
+            keyAlias "naweri_social_keystore.jks"
             keyPassword "pwo6dq2gfi"
         }
     }
